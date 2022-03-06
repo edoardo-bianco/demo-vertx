@@ -1,0 +1,12 @@
+.idea/
+.gradle/
+target/
+build/
+out/
+.DS_Store
+*.iml
+*.iws
+*.ipr
+tracks/
+sample.db
+__pycache__
