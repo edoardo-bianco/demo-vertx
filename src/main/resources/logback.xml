@@ -1,0 +1,13 @@
+<configuration>                                                        ❶
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%level [%thread] %logger{0} - %msg%n</pattern>          ❷
+    </encoder>
+  </appender>
+
+  <logger name="io.netty" level="warn"/>                               ❸
+
+  <root level="debug">
+    <appender-ref ref="STDOUT"/>
+  </root>
+</configuration>
