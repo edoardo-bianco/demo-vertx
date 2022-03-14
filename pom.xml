@@ -22,7 +22,7 @@
     <junit-jupiter.version>5.7.0</junit-jupiter.version>
     <logback-classic.version>1.2.3</logback-classic.version>
     <!-- configuração alternativa com mainClass  -->
-    <mainClass>it.dadus.demo.chapter2.execblocking.Offload</mainClass>
+    <mainClass>it.dadus.demo.chapter2.dissecting.MixedThreading</mainClass>
     <!-- -->
     <!-- configuração alternativa com launcher.class  
     <main.verticle>it.dadus.demo.chapter2.worker.WorkerVerticle</main.verticle>
